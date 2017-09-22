@@ -1,0 +1,206 @@
+@charset "UTF-8";
+.listFilterBox{
+width: 100%;
+background-color: #f6f7f8;
+padding: 28px 0 18px 0;
+border: 1px solid #f0f0f0;
+height: auto;
+}
+.mainInnerBox{
+	width:70%;
+	margin: 0px auto;
+	display: block;
+	font-size: inherit;
+	
+}
+.souSuoBox{
+	margin-top: -4px;
+	padding-bottom: 10px;
+	font-size: 0px;
+}
+.souSuoBox>label{
+	color: #999;
+}
+.souSuoBox>*{
+	font-size: 18px;
+}
+.listFilterItemBox{
+	margin: 0px;
+	padding: 0px;
+	 align-content:  center;
+}
+.listFilterItemBox>label{
+	float:left;
+	height: 22px;
+	line-height: 22px;
+	color: #999999;
+	width: 65px;
+	margin-right: 5px;
+	font-size: 13px;
+}
+.lab{
+	float: none;
+}
+.listFilterItemABox {
+    height:32px;
+    line-height:32px;
+    float: left;
+    width: 970px;
+    font-size: 0px;
+   
+}
+.listFilterItemABox>a {
+    height: 22px;
+    line-height: 22px;
+    padding: 0px 10px;
+    border-radius: 3px;
+    margin: 0px 0px 0px 5px;
+    position: relative;
+    font-size: 13px;
+}
+.listFilterItemABox>a:hover{
+	color: #5e5eff;
+}
+.listFilterItemABox a.cur {
+    background-color: #50abf2;
+    color: #fff;
+}
+.siteIlB_box>*, .siteIlB_item {
+    vertical-align: top;
+    font-size: 12px;
+    display: inline-block;
+}
+.btn_ALink {
+    text-decoration: none;
+    color: inherit;
+}
+.siteIlB_item{
+	vertical-align: top;
+	display: inline-block;
+}
+.souSuoListBox{
+	margin-left: -17px;	
+}
+.ssCardItem{
+	width: 245px;
+	border: 1px solid #dcdcdc;
+	height: 413px;
+	border-radius: 5px;
+	float: left;
+	margin: 30px 0 0 17px;
+	overflow: hidden;
+}
+.siteCardItemImgA{
+	height: 183px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+.siteCardItemImgA>img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.ssCardICBox{
+	
+	background-position: right 75px;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0 12px;
+}
+.ssCardICText{
+	height: 120px;
+	padding-top: 0;
+}
+.h3{
+	margin: 0;
+	padding: 0;
+}
+.siteCardICH3 {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #222;
+    line-height: 20px;
+    max-height: 40px;
+    overflow: hidden;
+    padding-top: 3px;
+    text-decoration: none;
+    word-break: break-all;
+}
+.siteCardIC_p {
+    color: #888888;
+    line-height: 20px;
+    margin-top: 6px;
+    font-size: 11px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    height: 60px;
+    -webkit-line-clamp: 3
+}
+.siteCardFBox {
+    padding: 16px 0px 0px 0px;
+    border-top: 1px dashed #dcdcdc;
+}
+.siteCardRatio {
+    height: 6px;
+    border-radius: 3px;
+    background-color: #e4e4e4;
+    margin: 10px 0px 7px 0px;
+    overflow: hidden;
+}
+.siteCardFData {
+    position: relative;
+    text-align: center;
+    margin: 0;
+	padding: 0;
+}
+.siteCardFData .ftDiv {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    text-align: left;
+}
+.siteCardFData .ftDiv .ftP {
+    color: #ff5001;
+}
+
+.siteCardFData>div .ftP {
+    font-weight: bold;
+}
+.siteCardFData>div .scP {
+    color: #999999;
+    font-size: 11px;
+}
+.siteCardFData .scDiv {
+    height: 46px;
+    display: inline-block;
+}
+.siteCardFData .thDiv {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: left;
+}
+.ftDiv{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	text-align: left;
+}
+.scDiv{
+	height: 46px;
+	display: inline-block;;
+	
+}
+.scP{
+	color: #999999;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
